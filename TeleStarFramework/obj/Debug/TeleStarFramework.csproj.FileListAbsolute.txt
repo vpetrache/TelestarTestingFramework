@@ -1,0 +1,13 @@
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\TeleStarFramework.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\TeleStarFramework.pdb
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\nunit.framework.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\WebDriver.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\WebDriver.Support.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\nunit.framework.xml
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\WebDriver.xml
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\WebDriver.Support.xml
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\obj\Debug\TeleStarFramework.csprojResolveAssemblyReference.cache
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\obj\Debug\TeleStarFramework.dll
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\obj\Debug\TeleStarFramework.pdb
+D:\Projects\WPAutomation\TeleStarFramework\TeleStarFramework\bin\Debug\TeleStarFramework.dll.config

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Testxml>
+  <TestSet TestName="AddingFreeDeliveryProduct">
+    <Parameters>
+    <Parameter Name="BasePageTitle" Value="Magazin online cu produse originale"/>
+	  <Parameter Name="CategoryPageTitle" Value="Well-Being"/>
+	  <Parameter Name="BreadCrumbs" Value="Acasă > Sanatate  Well-Being > Well-Being"/>
+	  <Parameter Name="ProductName" Value="EAGLE EYES PANOVU OFERTA"/>
+	  <Parameter Name="FullProductName" Value="Eagle Eyes PanoVu oferta - 2 perechi de ochelarii cu lentile TriLenium Polarizate"/>
+	  <Parameter Name="BasketPageTitle" Value="Order"/>
+	  <Parameter Name="ProductQuantity" Value="3"/>
+    </Parameters>
+  </TestSet>
+  <TestSet TestName="AddingPaidDeliveryProduct">
+    <Parameters>
+      <Parameter Name="ProductName" Value="EAGLE EYES MYKONOS"/>
+	  <Parameter Name="ProductQuantity" Value="3"/>
+    </Parameters>
+  </TestSet>
+</Testxml>
