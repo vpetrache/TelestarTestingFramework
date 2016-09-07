@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -50,13 +51,14 @@ namespace TeleStarFramework.Utils
             var testXml = obj as TestXML;
             foreach (var testSet in testXml.TestSets)
             {
-                if (testSet.TestName.Equals("AddingFreeDeliveryProduct"))
+                if (testSet.TestName.Equals(TestContext.CurrentContext.Test.MethodName))
+                {
                     foreach (var parameter in testSet.Parameters)
                     {
                         testData.Add(parameter.Name, parameter.Value);
-
                     }
-                break;
+                    break;
+                }
             }
             reader.Close();
 

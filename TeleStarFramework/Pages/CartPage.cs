@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TeleStarFramework.Pages
@@ -61,10 +62,13 @@ namespace TeleStarFramework.Pages
 
         public void AddQuantity(string quantity)
         {
+       
             for (int i = 1; i < Int32.Parse(quantity); i++)
             {
                 quantityAdd.FindElement(By.TagName("input")).Click();
             }
+            Thread.Sleep(2000);
+
         }
     }
 }

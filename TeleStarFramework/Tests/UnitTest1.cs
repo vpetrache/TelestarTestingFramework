@@ -42,23 +42,24 @@ namespace TeleStarFramework
             Assert.AreEqual(cartPage.TotalPrice(DriverManagementUtils.TestData.Get("ProductQuantity")), cartPage.DisplayedTotalPrice());
         }
 
-        //public void AddingPaidDeliveryProduct()
-        //{
-        //    var homepage = new BasePage(driver);
-        //    Assert.IsTrue(homepage.LogoVisibility());
-        //    homepage.AccessMenu();
+        [Test]
+        public void AddingPaidDeliveryProduct()
+        {
+            var homepage = new BasePage(driver);
+            Assert.IsTrue(homepage.LogoVisibility());
+            homepage.AccessMenu();
 
-        //    var categoryPage = new CategoryPage(driver);           
-        //    categoryPage.clickSelectedProduct("EAGLE EYES PANOVU OFERTA");
+            var categoryPage = new CategoryPage(driver);
+            categoryPage.clickSelectedProduct(DriverManagementUtils.TestData.Get("SecondProductName"));
 
-        //    var productPage = new ProductPage(driver);
-        //    productPage.AddToCart();
-        //    StringAssert.Contains(productPage.ProductPrice(), productPage.CartPrice());
-        //    productPage.GoToCart();
+            var productPage = new ProductPage(driver);
+            productPage.AddToCart();
+            StringAssert.Contains(productPage.ProductPrice(), productPage.CartPrice());
+            productPage.GoToCart();
 
-        //    var cartPage = new CartPage(driver);
-        //    cartPage.AddQuantity("3");
-        //    Assert.AreEqual(cartPage.TotalPrice("3"), cartPage.DisplayedTotalPrice());
-        //}
+            var cartPage = new CartPage(driver);
+            cartPage.AddQuantity(DriverManagementUtils.TestData.Get("SecondProductQuantity"));
+            Assert.AreEqual(cartPage.TotalPrice(DriverManagementUtils.TestData.Get("SecondProductQuantity")), cartPage.DisplayedTotalPrice());
+        }
     }
 }

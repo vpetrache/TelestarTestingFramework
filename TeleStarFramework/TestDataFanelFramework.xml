@@ -13,8 +13,8 @@
   </TestSet>
   <TestSet TestName="AddingPaidDeliveryProduct">
     <Parameters>
-      <Parameter Name="ProductName" Value="EAGLE EYES MYKONOS"/>
-	  <Parameter Name="ProductQuantity" Value="3"/>
+    <Parameter Name="SecondProductName" Value="EAGLE EYES MYKONOS"/>
+	  <Parameter Name="SecondProductQuantity" Value="3"/>
     </Parameters>
   </TestSet>
 </Testxml>
